@@ -10,3 +10,9 @@
     <artifactId>guice</artifactId>
     <version>4.2.3</version>
 </dependency>
+
+// also add this to testng file in the suite tag
+<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" ></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" ></listener>
+</listeners>
